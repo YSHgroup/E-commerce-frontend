@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+.brand-page-content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+
+    .title {
+        text-align: center;
+        font-size: 48px;
+        margin-bottom: 15px;
+    }
+
+    .brand-link {
+        margin-bottom: 10px;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .azbranditem {
+        margin: 90px 0 40px;
+        display: table;
+        padding-left: 15px;
+        table-layout: fixed;
+        text-align: center;
+
+        li {
+            list-style: none;
+            display: inline-block;
+            color: #333;
+            font-size: 27px;
+            margin-right: 23px;
+            cursor: pointer;
+            transition: 0.3s;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+        li.active {
+            color: #d3122a;
+            text-decoration: underline;
+        }
+    }
+}
+
+.brand-header-wrapper {
+    .brand-header-image {
+        position: relative;
+        .brand-header-image-shadow {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgb(255, 255, 255);
+            background: linear-gradient(
+                90deg,
+                rgba(255, 255, 255, 0) 50%,
+                rgba(255, 255, 255, 1) 100%
+            );
+        }
+    }
+    .brnd-header-text {
+        .title {
+            font-family: Allura, cursive;
+            font-size: 73px;
+            font-weight: 400;
+            line-height: 1;
+            margin-bottom: 30px;
+            transform: translateY(30px);
+            color: #333;
+        }
+
+        .brand-header-link {
+            padding-top: 10px;
+            .link {
+                padding-bottom: 5px;
+                text-transform: uppercase;
+                color: #333;
+                border-bottom: 1px solid #333;
+            }
+        }
+    }
+}

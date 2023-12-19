@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Website information",
+    "children": [
+      {
+        "title": "What is 3D Infinite?",
+        "desc": "3D Infinite is a platform that offers 3D models of modern luxury furniture, lighting, and decoration."
+      },
+      {
+        "title": "How can I browse and search for 3D models on your website?",
+        "desc": "You can explore our catalog through various menus, filters, or by using the search bar."
+      },
+      {
+        "title": "Which software and render engines are compatible with your 3D models?",
+        "desc": "Our models are compatible with 3ds Max and the Corona Render engine. We plan to include different formats in the future."
+      },
+      {
+        "title": "In what formats are the 3D models provided?",
+        "desc": "We currently provide .max format and .obj files with textures, ready for use in your scenes."
+      },
+      {
+        "title": "Can I preview the 3D models before purchasing?",
+        "desc": "Yes, you can preview the models using our generated preview images under studio lighting conditions."
+      }
+    ]
+  },
+  {
+    "name": "Payment information",
+    "children": [
+      {
+        "title": "How does the purchasing process work on 3D Infinite?",
+        "desc": "We use a credit-based system, where each model has a different price. 1 credit equals $1, and the minimum purchase is $20. Credits have no expiration date."
+      },
+      {
+        "title": "What payment methods do you accept?",
+        "desc": "You can make payments using credit/debit cards, PayPal, AmazonPay, or Wire Transfer through our FastSpring payment system."
+      },
+      {
+        "title": "Do you offer discounts or subscription plans?",
+        "desc": "Currently, we do not offer discounts or subscription plans."
+      }
+    ]
+  },
+  {
+    "name": "Product information",
+    "children": [
+      {
+        "title": "How are purchased 3D models delivered to users?",
+        "desc": "Purchased models can be accessed in the 'Orders' section of your user account, and you can download them at any time."
+      },
+      {
+        "title": "What is the licensing agreement for the 3D models?",
+        "desc": "Our models come with a general licensing agreement that allows both personal and commercial use."
+      },
+      {
+        "title": "Do you offer custom 3D modeling services?",
+        "desc": "Yes, we provide custom modeling services. Contact us for more information."
+      },
+      {
+        "title": "Are there any restrictions on reselling your models on other platforms?",
+        "desc": "Yes, reselling our models on other platforms is strictly prohibited."
+      },
+      {
+        "title": "Do you have user reviews and ratings for your models?",
+        "desc": "We don't have user reviews and ratings at the moment, but we plan to add this feature in the future."
+      },
+      {
+        "title": "How often do you update your model inventory?",
+        "desc": "We update our inventory with new models every week."
+      }
+    ]
+  },
+  {
+    "name": "Orders and returns",
+    "children": [
+      {
+        "title": "How can I contact customer support?",
+        "desc": "You can find our contact information in the website footer and reach out to us via email."
+      },
+      {
+        "title": "Do you offer returns or refunds?",
+        "desc": "We do not offer returns or refunds unless the model is broken or not functioning as expected."
+      }
+    ]
+  }
+]

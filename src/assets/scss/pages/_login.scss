@@ -1,0 +1,93 @@
+
+/*=============================================
+=                  Login page                 =
+=============================================*/
+
+
+.login-page {
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  @media (max-width: 576px) {
+    background-image: none;
+    background-color: white;
+  }
+
+  .canvas {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    min-height: 640px;
+    
+    @media (max-width: 576px) {
+      background: white;
+    }
+
+    & > .container-sm {
+      height: 100%;
+
+      & > .row {
+        height: 100%;
+
+        & > .col {
+          height: 100%;
+
+          & > .inner-container {
+            display: flex;
+            height: 100%;
+            align-items: center;
+            justify-content: left;
+
+            &.justify-center {
+              justify-content: center;
+
+              @media (max-height: 640px) {
+                align-items: flex-start;
+              }
+            }
+
+            .label {
+              color: white;
+              font-size: 18px;
+              padding-left: 50px;
+              
+              .company-name {
+                font-size: 30px;
+                opacity: 0.8;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: -0.4px;
+
+                img {
+                  height: 65px;
+                  display: inline-block;
+                  position: relative;
+                  top: -2px;
+                  margin-right: 10px;
+                  opacity: 0.8;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .source {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      white-space: nowrap;
+      font-size: 12px;
+      font-weight: 600;
+      color: white;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

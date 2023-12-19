@@ -1,0 +1,143 @@
+
+/*=============================================
+=            not found            =
+=============================================*/
+
+.not-found-page {
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  .canvas {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+
+    & > .container-sm {
+      height: 100%;
+
+      & > .row {
+        height: 100%;
+
+        & > .col {
+          height: 100%;
+
+          & > .inner-container {
+            display: flex;
+            height: 100%;
+            align-items: center;
+            justify-content: left;
+
+            &.justify-center {
+              justify-content: center;
+            }
+
+            .label {
+              color: white;
+              font-size: 18px;
+              padding-left: 50px;
+              
+              .company-name {
+                font-size: 30px;
+                opacity: 0.8;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: -0.4px;
+
+                img {
+                  height: 65px;
+                  display: inline-block;
+                  position: relative;
+                  top: -2px;
+                  margin-right: 10px;
+                  opacity: 0.8;
+                }
+              }
+            }
+          }
+        }
+
+        .nothing-found-content {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: center;
+        
+          height: 100vh;
+        
+          h1 {
+            font-size: 72px;
+            line-height: 100px;
+        
+            color: $white;
+        
+            @include respond(small-desktop) {
+              font-size: 50px;
+              line-height: 80px;
+            }
+            @include respond(extra-large-mobile) {
+              font-size: 50px;
+              line-height: 80px;
+            }
+        
+            @include respond(large-mobile) {
+              font-size: 50px;
+              line-height: 80px;
+            }
+        
+            @include respond(extra-small-mobile) {
+              font-size: 35px;
+              line-height: 60px;
+            }
+          }
+        
+          p {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 24px;
+        
+            letter-spacing: 4px;
+        
+            color: $white;
+            @include respond(extra-small-mobile) {
+              text-align: center;
+            }
+        
+            a {
+              font-weight: 500;
+        
+              letter-spacing: 1px;
+              text-transform: uppercase;
+        
+              color: $yellow--three;
+              border-bottom: 1px solid $white;
+        
+              &:hover {
+                color: $yellow;
+              }
+            }
+          }
+        }        
+      }
+    }
+
+    .source {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      white-space: nowrap;
+      font-size: 12px;
+      font-weight: 600;
+      color: white;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+/*=====  End of not found  ======*/
+
